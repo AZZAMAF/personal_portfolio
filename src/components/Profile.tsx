@@ -33,7 +33,7 @@ export const Profile = () =>{
                     </p>
                     <div className="flex gap-3 pt-2 text-neutral-500">
                         {socialLinks.map((social, i)=>{
-                            const Icon = social.link;
+                            const Icon = social.icon;
 
                             return(
                                 <a 
@@ -44,12 +44,17 @@ export const Profile = () =>{
                                 rounded-full hover:border-primary
                                 transition duration-200"
                                 >
-                                    <Icon ></Icon>
+                                    <Icon classname='size-6'/>
                                 </a>
-                            )
+                            );
                         })}
                     </div>
                 </div>
+                <Button
+                    className="mt-2"
+                    size='lg'>
+                    Let's Work!
+                </Button>
             </div>
         </aside>
     )
