@@ -39,7 +39,7 @@ export const Hero = ( ) => {
             variants={fadeUp}
             className="mt-5 flex gap-2">
                 <Button asChild>
-                    <a href="#projects">My project</a>
+                    <a href="#projects">My Project</a>
                 </Button>
 
                 <Button variant='outline'>Dowload Cv</Button>
