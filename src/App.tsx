@@ -10,6 +10,7 @@ import { Projects } from "@/components/Projects"
 import { About } from "@/components/Abour"
 import { Service } from "@/components/Service"
 import { Resume } from "./components/Resume"
+import { Testimonials } from "./components/Testimonials"
 
 
 export const App = ()=>{
@@ -22,6 +23,7 @@ export const App = ()=>{
       <About/>
       <Service/>
       <Resume/>
+      <Testimonials/>
     </main>
   )
 }
